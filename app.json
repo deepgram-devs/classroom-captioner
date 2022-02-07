@@ -1,0 +1,17 @@
+{
+    "name": "Classroom Captioner",
+    "env": {
+        "DEEPGRAM_KEY": {
+            "description": "Deepgram API Key with admin or owner role",
+            "required": true
+        },
+        "DEEPGRAM_PROJECT": {
+            "description": "Deepgram Project ID",
+            "required": true
+        },
+        "LECTURE_KEY": {
+            "description": "Passphrase to allow broadcasting",
+            "required": true
+        }
+    }
+  }
