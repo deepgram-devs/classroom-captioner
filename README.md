@@ -10,10 +10,10 @@ Provide live captions to your students by leaving a tab open in the background. 
 4. Click on any of these buttons below to deploy this project on your hosting provider of choice.
 
 <a href="https://heroku.com/deploy?template=https://github.com/deepgram-devs/classroom-captioner">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="32">
 </a>
 <a href="https://render.com/deploy?repo=https://github.com/deepgram-devs/classroom-captioner">
-  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" height="32">
 </a>
 
 <!-- Remix on Glitch -->
