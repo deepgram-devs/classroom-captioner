@@ -1,7 +1,7 @@
 {
   "name": "classroom-captioner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webapp to provide live captions for your students.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@deepgram/sdk": "^1.2.1",
     "dotenv": "^16.0.0",
