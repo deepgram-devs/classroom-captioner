@@ -16,8 +16,6 @@ Provide live captions to your students by leaving a tab open in the background. 
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" height="32">
 </a>
 
-<!-- Remix on Glitch -->
-
 ## Local Setup
 
 ```
