@@ -1,0 +1,16 @@
+# Config file for easy deployment to Render
+
+services:
+  - type: web
+    name: classroom-captioner
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DEEPGRAM_KEY
+        value:
+      - key: DEEPGRAM_PROJECT
+        value:
+      - key: LECTURE_KEY
+        generateValue: true

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Captioner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Room <span id="id"></span></h1>
+
+  <p></p>
+
+  <footer>
+    <span>Captions provided by</span>
+    <a href="https://deepgram.com">
+      <img src="./deepgram.svg" alt="Deepgram">
+    </a>
+  </footer>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+  const url = new URL(location.href)
+  const search = new URLSearchParams(url.search)
+  const id = search.get('id')
+  document.querySelector('#id').textContent = id
+
+  const socket = io()
+  socket.emit('join', id)
+
+  socket.on('transcriptComplete', message => {
+    document.querySelector('p').textContent += ' ' + message
+  })
+</script>
+</body>
+</html>

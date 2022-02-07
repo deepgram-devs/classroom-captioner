@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classroom Captioner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Classroom Captioner</h1>
+
+  <h2>Join as a student</h2>
+  <form action="/student">
+    <label for="id">Room ID</label>
+    <input type="text" id="id" name="id" />
+    <input type="submit" value="Submit">
+  </form>
+
+  <h2>Create as a lecturer</h2>
+  <form action="/lecturer">
+    <label for="id">Room ID</label>
+    <input type="text" id="id" name="id" />
+    <input type="submit" value="Submit">
+  </form>
+
+  <footer>
+    <span>Captions provided by</span>
+    <a href="https://deepgram.com">
+      <img src="./deepgram.svg" alt="Deepgram">
+    </a>
+  </footer>
+</body>
+</html>

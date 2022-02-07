@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { padding: 2em; font-family: 'Cairo', sans-serif; background: #141E29; color: white; }
+h2 { margin-top: 1.5rem; }
+input { display: block; font-size: 1em; font-family: inherit; padding: 0 0.5em; width: 200px; }
+input[type=submit] { background: #38EDAC; color: #141E29; border: none; margin-top: 0.5em; }
+
+body { padding-bottom: 5rem; }
+footer { position: fixed; bottom: 0; left: 0; width: 100%; background: #fb3640; display: flex; align-items: center; padding: 1rem; }
+footer span { line-height: 1rem; }
+footer a { display: flex; align-items: center; margin-left: 1em; }
+footer img { height: 1em; }
+@media (max-width: 400px) { footer { padding: 0.5rem; } }
