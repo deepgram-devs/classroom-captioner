@@ -1,6 +1,6 @@
 # Classroom Captioner
 
-Provide live captions to your students by leaving a tab open in the background. Students can get cpations on their own devices.
+Provide live captions to your students by leaving a tab open in the background. Students can get captions on their own devices.
 
 ## Quick Setup
 
